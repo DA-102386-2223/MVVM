@@ -6,9 +6,13 @@ android {
     namespace 'cat.udl.gtidic.course2223.teacher.mvvm'
     compileSdk 33
 
+    dataBinding{
+        enabled true
+    }
+
     defaultConfig {
         applicationId "cat.udl.gtidic.course2223.teacher.mvvm"
-        minSdk 26
+        minSdk 25
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -29,7 +33,6 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
